@@ -17,10 +17,10 @@ library(venn)
 ###########################
 
 # Leer el archivo de TPM
-TPM_data <- read.delim("../TPM_pawpaw.tsv", header = TRUE, sep = "\t", stringsAsFactors = FALSE)
+TPM_data <- read.delim("TPM.tsv", header = TRUE, sep = "\t", stringsAsFactors = FALSE)
 
 # Definir el orden deseado de las condiciones (columnas), comentar si no es necesario
-desired_order <- c("AI4", "CC4", "AI8", "CC8", "AI15", "CC15") 
+# desired_order <- c("AI4", "CC4", "AI8", "CC8", "AI15", "CC15") 
 
 
 ###########################
