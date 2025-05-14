@@ -1,4 +1,4 @@
-# script_gene_specific_venn.R
+# gene-specific-venn
 
 This R script generates a Venn diagram based on gene expression specificity across experimental conditions.
 
